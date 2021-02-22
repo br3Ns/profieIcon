@@ -1,0 +1,34 @@
+*, 
+*::before, 
+*::after { 
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box; 
+} 
+
+.container { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 100vw; 
+  height: 100vh; 
+  background: #252525; 
+} 
+
+/* Your CSS Here 👇 */ .profilePicture 
+{ background-image:url(https://www.askideas.com/media/26/Grey-And-White-Pit-Bull-Dog-On-Grass.jpg); 
+  border-radius: 200%; 
+  border-style:solid; 
+  border-color:pink; 
+  width: 700px; 
+  height: 700px; 
+  position:relative; 
+} 
+
+.profileStatus { 
+  border-radius:100%; 
+  width:15px; 
+  height:15px; 
+  background-color:none; position:absolute; 
+  top:190px; 
+  right:545px; }
